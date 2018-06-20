@@ -27,6 +27,8 @@ This thing is used for printing on a lcd screen the scores of two different team
 
 -nuts and bolts.
 
+![caprometro_bb](C:\Users\Utente\Desktop\caprometro_bb.jpg)
+
 # Code
 
 Before programming the touchboard you can use the Arduino IDLE but you need to install several stuff, see https://www.bareconductive.com/make/setting-up-arduino-with-your-touch-board/). They give you some examples too.

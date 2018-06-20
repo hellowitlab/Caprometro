@@ -35,27 +35,27 @@ Before programming the touchboard you can use the Arduino IDLE but you need to i
 
 
 
-// touch includes
-#include <MPR121.h>
-#define MPR121_ADDR 0x5C
-#include <Wire.h>
-// mp3 includes
-#include <SPI.h>
-#include <SdFat.h>
+`// touch includes`
+`#include <MPR121.h>`
+`#define MPR121_ADDR 0x5C`
+`#include <Wire.h>`
+`// mp3 includes`
+`#include <SPI.h>`
+`#include <SdFat.h>`
 #include <FreeStack.h> 
-#include <SFEMP3Shield.h>
-// mp3 variables
-SFEMP3Shield MP3player;
-byte result;
-//lcd includes and variables
-#include <LiquidCrystal.h>
-LiquidCrystal lcd (A0, A1, A2, A3, A4, A5);
-//servo includes and variables
-Servo servo;
-#include <Servo.h>
-// sd card instantiation
-SdFat sd;
-void setup(){
+`#include <SFEMP3Shield.h>`
+`// mp3 variables`
+`SFEMP3Shield MP3player;`
+`byte result;`
+`//lcd includes and variables`
+`#include <LiquidCrystal.h>`
+`LiquidCrystal lcd (A0, A1, A2, A3, A4, A5);`
+`//servo includes and variables`
+`Servo servo;`
+`#include <Servo.h>`
+`// sd card instantiation`
+`SdFat sd;`
+`void setup(){`
   lcd.begin(16,2);
   servo.write(5);
   if(!sd.begin(SD_SEL, SPI_HALF_SPEED)) sd.initErrorHalt();
@@ -74,12 +74,12 @@ void setup(){
   MP3player.setVolume(10,10);
 
   MPR121.updateTouchData();
-}
+`}`
 
-int wind=0;
-int rain=0;
+`int wind=0;`
+`int rain=0;`
 
-void loop(){
+`void loop(){`
   if(MPR121.touchStatusChanged()){
       MPR121.updateTouchData();
       if(MPR121.isNewTouch(1)){//button one pressed
@@ -118,7 +118,7 @@ void loop(){
   lcd.setCursor(5,1);
   lcd.print(rain);
   delay(300);
-}
+`}`
 
 # Build it!
 

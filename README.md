@@ -27,8 +27,6 @@ This thing is used for printing on a lcd screen the scores of two different team
 
 -nuts and bolts.
 
-![caprometro_bb](C:\Users\Utente\Desktop\caprometro_bb.jpg)
-
 # Code
 
 Before programming the touchboard you can use the Arduino IDLE but you need to install several stuff, see https://www.bareconductive.com/make/setting-up-arduino-with-your-touch-board/). They give you some examples too.
@@ -181,4 +179,4 @@ Before programming the touchboard you can use the Arduino IDLE but you need to i
 
 The bare conductive touchboard with his ELECTRODE SOLDER PADS  gives you a great and creative way of creating things with sounds or with the use of the conductive jel.
 
-We firstly tryed it with an Arduino and a bread board and than we added sounds and touch buttons so we had to use another type of board for the final project.
+We firstly tryed it with an Arduino and a bread board and than we added sounds and touch buttons so we had to use another type of board for the final project (see the folder named FRITZING IMAGE).

@@ -31,7 +31,7 @@ This thing is used for printing on a lcd screen the scores of two different team
 
 -nuts and bolts.
 
-![immagine_caprometro](C:\Users\Utente\Documents\GitHub\Caprometro\immagini_caprometro\immagine_caprometro.jpg)
+https://github.com/hellowitlab/Caprometro/tree/master/immagini_caprometro/immagine_caprometro.jpg
 
 # Code
 
@@ -186,3 +186,5 @@ Before programming the touchboard you can use the Arduino IDLE but you need to i
 The bare conductive touchboard with his ELECTRODE SOLDER PADS  gives you a great and creative way of creating things with sounds or with the use of the conductive jel.
 
 We firstly tryed it with an Arduino and a bread board and than we added sounds and touch buttons so we had to use another type of board for the final project (see the folder named FRITZING IMAGE).
+
+https://github.com/hellowitlab/Caprometro/tree/master/fritzing_image/caprometro_bb.jpg

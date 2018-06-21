@@ -1,7 +1,7 @@
 # Caprometro
 Goat Meter from team Thorussel @ Witlab
 
-https://github.com/hellowitlab/Caprometro/tree/master/immagini_caprometro/immagine_caprometro.jpg
+https://github.com/hellowitlab/Caprometro/tree/master/immagini_caprometro/immagine_caprometro2.jpg
 
 
 

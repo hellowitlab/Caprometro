@@ -1,7 +1,7 @@
 # Caprometro
 Goat Meter from team Thorussel @ Witlab
 
-![immagine_caprometro (2)](C:\Users\Utente\Documents\GitHub\Caprometro\immagini_caprometro\immagine_caprometro (2).jpg)
+[Caprometro](https://github.com/hellowitlab/Caprometro)/[immagini_caprometro](https://github.com/hellowitlab/Caprometro/tree/master/immagini_caprometro)/immagine_caprometro (2).jpg
 
 This thing is used for printing on a lcd screen the scores of two different teams. It is provided with three different special buttons made of a conductive gel. The two with the goat shape are used for adding points with, a goat moan in the background and a goat made of wood glued to the servo motor will make you lough. The button in the middle, with an elephant on a sprng, is used for resetting the scores of the two teams.
 
